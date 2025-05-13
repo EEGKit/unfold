@@ -11,11 +11,17 @@
       :align: center
       :width: 30 %
 
+Unfold.jl - in Julia
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+We are actively continuing Unfold in Julia (under the name Unfold.jl <https://github.com/unfoldtoolbox/UnfoldDocs/>). It has several new features like event-specific timewindows, MixedModels, GPU-fitting etc. It further has a more extensive ecosystem consisting of a Plotting, a Simulation, a Decoding, a BIDS and a Statistics toolbox.
+
+
 Unfold 1.2 - EEG Deconvolution Toolbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A toolbox for *deconvolution* of overlapping EEG (Pupil, LFP etc.) signals and *(non)-linear modeling*
 
 New in 1.2 (December 2020): More automatic cleaning tools (ASR, Entropy-Based). Many Bugfixes, better Documentation and better error-codes.
+Januar 2025: MatLab Unfold is still actively maintained, but no new features are currently added. PRs are welcome!
 
 Reference Papers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -42,13 +48,6 @@ What can you do with *unfold*?
 * (Optional) **regularization** using glmnet
 * Temporal Response Functions (TRFs)
 
-Unfold.jl - a Beta-Toolbox in Julia
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-We are developing a sister-toolbox for Julia. It is not feature-par with matlab-unfold yet, e.g. splines are missing and no plotting tools. But it allows to specify more flexible basisfunctions, e.g. different types for different events and different lengths. It also fully supports MixedModels (but that part is still untested in practice, besides unittests).
-
-(deprecated) Unmixed - Unfold addon for mixed Models
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-(deprecated) The addon *unmixed*, allowing to use mixed models can be found in its alpha version version `here <https://github.com/unfoldtoolbox/unmixed>`_
 
 Requirements
 ^^^^^^^^^^^^^^^^^
